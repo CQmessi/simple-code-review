@@ -1,0 +1,94 @@
+{
+  "appInfo" : {
+    "build" : "241.14494.240",
+    "buildDate" : "2024-03-28T05:12:00Z[UTC]",
+    "productCode" : "IC",
+    "generated" : "2025-10-27T13:56:12.0519584Z",
+    "os" : "Windows 11.0",
+    "runtime" : "JetBrains s.r.o. 17.0.10 17.0.10+8-b1207.12"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 2147483648,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 11,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "review-test",
+    "times" : {
+      "scanningReason" : "changes in: \"Module 'demo' (annotations, java, java)\", \"Library Maven: com.zhangjun:openai-code-sdk:1.0 (#1 class roots, #0 source roots)\", \"Library Maven: org.eclipse.jgit:org.eclipse.jgit:5.13.0.202109080827-r (#1 class roots, #1 source roots)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 4971820000,
+      "concurrentHandlingWallTimeWithPauses" : 4971820000,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 8670019700,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 1788252200,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 6876722500,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 2232900,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2025-10-27T13:56:07.0628656Z",
+      "updatingEnd" : "2025-10-27T13:56:12.0468531Z",
+      "totalWallTimeWithPauses" : 4984280700,
+      "wallTimeOnPause" : 0,
+      "wasInterrupted" : false,
+      "totalWallTimeWithoutPauses" : 4984280700
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 3,
+      "numberOfScannedFiles" : 7908,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 1
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "Library Maven: com.zhangjun:openai-code-sdk:1.0 (#1 class roots, #0 source roots)",
+      "numberOfScannedFiles" : 5533,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 1,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 2636196700,
+      "totalOneThreadTimeWithPauses" : 4959354800,
+      "iterationAndScannersApplicationTime" : 1278985000,
+      "filesCheckTime" : 3678004800,
+      "timeProcessingUpToDateFiles" : 285196400,
+      "timeUpdatingContentLessIndexes" : 0,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 2232900,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Library Maven: org.eclipse.jgit:org.eclipse.jgit:5.13.0.202109080827-r (#1 class roots, #1 source roots)",
+      "numberOfScannedFiles" : 2371,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 1968429900,
+      "totalOneThreadTimeWithPauses" : 3643579400,
+      "iterationAndScannersApplicationTime" : 508663500,
+      "filesCheckTime" : 3134630300,
+      "timeProcessingUpToDateFiles" : 153583000,
+      "timeUpdatingContentLessIndexes" : 0,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'demo' (annotations, java, java)",
+      "numberOfScannedFiles" : 4,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 12705400,
+      "totalOneThreadTimeWithPauses" : 67085500,
+      "iterationAndScannersApplicationTime" : 603700,
+      "filesCheckTime" : 64087400,
+      "timeProcessingUpToDateFiles" : 2451700,
+      "timeUpdatingContentLessIndexes" : 0,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    } ]
+  }
+}

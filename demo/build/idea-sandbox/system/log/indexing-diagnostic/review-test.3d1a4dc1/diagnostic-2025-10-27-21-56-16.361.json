@@ -1,0 +1,98 @@
+{
+  "appInfo" : {
+    "build" : "241.14494.240",
+    "buildDate" : "2024-03-28T05:12:00Z[UTC]",
+    "productCode" : "IC",
+    "generated" : "2025-10-27T13:56:16.3621727Z",
+    "os" : "Windows 11.0",
+    "runtime" : "JetBrains s.r.o. 17.0.10 17.0.10+8-b1207.12"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 2147483648,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 11,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "DumbIndexing",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "review-test",
+    "times" : {
+      "scanningIds" : [ 1 ],
+      "contentLoadingVisibleTime" : 873980,
+      "retrievingChangedDuringIndexingFilesTime" : 66200,
+      "separateApplyingIndexesVisibleTime" : 46716,
+      "updatingStart" : "2025-10-27T13:56:16.1692738Z",
+      "updatingEnd" : "2025-10-27T13:56:16.2158211Z",
+      "totalWallTimeWithPauses" : 46878700,
+      "wallTimeOnPause" : 0,
+      "wasInterrupted" : false,
+      "dumbWallTimeWithoutPauses" : 46878700,
+      "dumbWallTimeWithPauses" : 46878700,
+      "dumbModeStart" : "2025-10-27T13:56:16.1692738Z",
+      "totalWallTimeWithoutPauses" : 46878700
+    },
+    "fileCount" : {
+      "numberOfChangedDuringIndexingFiles" : 0,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringIndexingStage" : 0,
+      "numberOfFilesIndexedWithLoadingContent" : 1,
+      "numberOfNothingToWriteFiles" : 1
+    },
+    "totalStatsPerFileType" : [ {
+      "fileType" : "CLASS",
+      "partOfTotalProcessingTime" : {
+        "part" : 1196100,
+        "total" : 1196100
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 557500,
+        "total" : 557500
+      },
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : 3425,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 3425,
+        "totalCpuTime" : 1196100
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Library Maven: com.zhangjun:openai-code-sdk:1.0 (#1 class roots, #0 source roots)",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 3425,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 1196100,
+          "total" : 1196100
+        }
+      } ]
+    } ],
+    "totalStatsPerBaseLanguage" : [ ],
+    "totalStatsPerIndexer" : [ ],
+    "statisticsOfChangedDuringIndexingFiles" : {
+      "numberOfFiles" : 0,
+      "retrievingTime" : 66200
+    },
+    "fileProviderStatistics" : [ {
+      "providerName" : "Library Maven: com.zhangjun:openai-code-sdk:1.0 (#1 class roots, #0 source roots)",
+      "totalNumberOfIndexedFiles" : 1,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalNumberOfNothingToWriteFiles" : 1,
+      "totalIndexingVisibleTime" : 1875100,
+      "contentLoadingVisibleTime" : 873980,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "separateApplyingIndexesVisibleTime" : 46716
+    }, {
+      "providerName" : "Refreshed files",
+      "totalNumberOfIndexedFiles" : 0,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalNumberOfNothingToWriteFiles" : 0,
+      "totalIndexingVisibleTime" : 0,
+      "contentLoadingVisibleTime" : 0,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "separateApplyingIndexesVisibleTime" : 0
+    } ],
+    "visibleTimeToAllThreadTimeRatio" : 0.0
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "appInfo" : {
+    "build" : "241.14494.240",
+    "buildDate" : "2024-03-28T05:12:00Z[UTC]",
+    "productCode" : "IC",
+    "generated" : "2025-10-26T02:20:22.6081974Z",
+    "os" : "Windows 11.0",
+    "runtime" : "JetBrains s.r.o. 17.0.10 17.0.10+8-b1207.12"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 2147483648,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 11,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "review-test",
+    "times" : {
+      "scanningReason" : "changes in: \"Module 'demo' (all roots)\", \"Library Maven: com.zhangjun:openai-code-sdk:1.0 (#1 class roots, #0 source roots)\", \"Library Maven: org.eclipse.jgit:org.eclipse.jgit:5.13.0.202109080827-r (#1 class roots, #1 source roots)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 2,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 3402562200,
+      "concurrentHandlingWallTimeWithPauses" : 3402562200,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 5524960700,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 2677192300,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 2846416800,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 381371300,
+      "dumbModeStart" : "2025-10-26T02:20:19.2005221Z",
+      "dumbWallTimeWithPauses" : 3405147900,
+      "dumbWallTimeWithoutPauses" : 3405147900,
+      "updatingStart" : "2025-10-26T02:20:19.1985278Z",
+      "updatingEnd" : "2025-10-26T02:20:22.60567Z",
+      "totalWallTimeWithPauses" : 3406508600,
+      "wallTimeOnPause" : 0,
+      "wasInterrupted" : false,
+      "totalWallTimeWithoutPauses" : 3406508600
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 3,
+      "numberOfScannedFiles" : 7920,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 7905
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "Library Maven: com.zhangjun:openai-code-sdk:1.0 (#1 class roots, #0 source roots)",
+      "numberOfScannedFiles" : 5533,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 5532,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 1282437300,
+      "totalOneThreadTimeWithPauses" : 3395003400,
+      "iterationAndScannersApplicationTime" : 1658215300,
+      "filesCheckTime" : 1736456400,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 287817600,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 272991600,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Library Maven: org.eclipse.jgit:org.eclipse.jgit:5.13.0.202109080827-r (#1 class roots, #1 source roots)",
+      "numberOfScannedFiles" : 2371,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 2369,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 897663500,
+      "totalOneThreadTimeWithPauses" : 2075927500,
+      "iterationAndScannersApplicationTime" : 1005130000,
+      "filesCheckTime" : 1070179500,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 238684300,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 108103700,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'demo' (all roots)",
+      "numberOfScannedFiles" : 16,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 4,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 16347700,
+      "totalOneThreadTimeWithPauses" : 54029800,
+      "iterationAndScannersApplicationTime" : 13847000,
+      "filesCheckTime" : 39780900,
+      "timeProcessingUpToDateFiles" : 2936200,
+      "timeUpdatingContentLessIndexes" : 0,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 276000,
+      "roots" : [ ]
+    } ]
+  }
+}

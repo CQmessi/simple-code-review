@@ -1,0 +1,26 @@
+#!/bin/sh
+
+# 设置环境变量
+export COMMIT_PROJECT="test"
+export COMMIT_BRANCH="main"
+export COMMIT_AUTHOR=$(git log -1 --pretty=format:'%an')
+export COMMIT_MESSAGE=$(git log -1 --pretty=format:'%s')
+export GIT_URL=""
+export GIT_USER=""
+export GIT_PASSWORD=""
+export WEIXIN_APPID=""
+export WEIXIN_SECRET=""
+export WEIXIN_TOUSER=""
+export WEIXIN_TEMPLATE_ID=""
+export MODEL_KEY=""
+export MODEL_URL=""
+export MODEL=""
+
+echo "正在执行代码审查..."
+cd "/e/study/model/review-test/demo"
+mvn compile exec:java -Dexec.mainClass="com.zhangjun.openaicodesdk.CodeReviewer"
+if [ $? -ne 0 ]; then
+    echo "代码审查执行失败，请检查错误信息"
+    exit 1
+fi
+echo "代码审查完成"

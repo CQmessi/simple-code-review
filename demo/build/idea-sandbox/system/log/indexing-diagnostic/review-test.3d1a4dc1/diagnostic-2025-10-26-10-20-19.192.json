@@ -1,0 +1,231 @@
+{
+  "appInfo" : {
+    "build" : "241.14494.240",
+    "buildDate" : "2024-03-28T05:12:00Z[UTC]",
+    "productCode" : "IC",
+    "generated" : "2025-10-26T02:20:19.1924443Z",
+    "os" : "Windows 11.0",
+    "runtime" : "JetBrains s.r.o. 17.0.10 17.0.10+8-b1207.12"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 2147483648,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 11,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "DumbIndexing",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "review-test",
+    "times" : {
+      "scanningIds" : [ 1 ],
+      "contentLoadingVisibleTime" : 173229640,
+      "retrievingChangedDuringIndexingFilesTime" : 49800,
+      "separateApplyingIndexesVisibleTime" : 43093072,
+      "updatingStart" : "2025-10-26T02:20:17.6262227Z",
+      "updatingEnd" : "2025-10-26T02:20:19.1914427Z",
+      "totalWallTimeWithPauses" : 1565617400,
+      "wallTimeOnPause" : 0,
+      "wasInterrupted" : false,
+      "dumbModeStart" : "2025-10-26T02:20:17.6262227Z",
+      "dumbWallTimeWithoutPauses" : 1565617400,
+      "dumbWallTimeWithPauses" : 1565617400,
+      "totalWallTimeWithoutPauses" : 1565617400
+    },
+    "fileCount" : {
+      "numberOfChangedDuringIndexingFiles" : 0,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringIndexingStage" : 0,
+      "numberOfFilesIndexedWithLoadingContent" : 30,
+      "numberOfNothingToWriteFiles" : 0
+    },
+    "totalStatsPerFileType" : [ {
+      "fileType" : "Groovy",
+      "partOfTotalProcessingTime" : {
+        "part" : 9986238500,
+        "total" : 10118318000
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 1026977000,
+        "total" : 1106965800
+      },
+      "totalNumberOfFiles" : 29,
+      "totalFilesSize" : 52597,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 52597,
+        "totalCpuTime" : 9986238500
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Custom kind roots from entity (extensions, empty)",
+        "numberOfFiles" : 29,
+        "totalFilesSize" : 52597,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 9986238500,
+          "total" : 9986238500
+        }
+      } ]
+    }, {
+      "fileType" : "JavaScript",
+      "partOfTotalProcessingTime" : {
+        "part" : 132079500,
+        "total" : 10118318000
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 79988800,
+        "total" : 1106965800
+      },
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : 1716,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 1716,
+        "totalCpuTime" : 132079500
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Custom kind roots from entity (extensions, empty)",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 1716,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 132079500,
+          "total" : 132079500
+        }
+      } ]
+    } ],
+    "totalStatsPerBaseLanguage" : [ {
+      "language" : "Groovy",
+      "partOfTotalProcessingTime" : {
+        "part" : 9986238500,
+        "total" : 10118318000
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 2133942800,
+        "total" : 1106965800
+      },
+      "totalNumberOfFiles" : 29,
+      "totalFilesSize" : 52597,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 52597,
+        "totalCpuTime" : 9986238500
+      }
+    } ],
+    "totalStatsPerIndexer" : [ {
+      "indexId" : "Stubs",
+      "partOfTotalIndexingTime" : {
+        "part" : 7217954500,
+        "total" : 8565601300
+      },
+      "totalNumberOfFiles" : 29,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 52597,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 52597,
+        "totalCpuTime" : 7217954500
+      }
+    }, {
+      "indexId" : "IdIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 1324905200,
+        "total" : 8565601300
+      },
+      "totalNumberOfFiles" : 30,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 54313,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 54313,
+        "totalCpuTime" : 1324905200
+      }
+    }, {
+      "indexId" : "Trigram.Index",
+      "partOfTotalIndexingTime" : {
+        "part" : 19523500,
+        "total" : 8565601300
+      },
+      "totalNumberOfFiles" : 30,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 54313,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 54313,
+        "totalCpuTime" : 19523500
+      }
+    }, {
+      "indexId" : "org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 3218100,
+        "total" : 8565601300
+      },
+      "totalNumberOfFiles" : 1,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 1716,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 1716,
+        "totalCpuTime" : 3218100
+      }
+    } ],
+    "statisticsOfChangedDuringIndexingFiles" : {
+      "numberOfFiles" : 0,
+      "retrievingTime" : 49800
+    },
+    "fileProviderStatistics" : [ {
+      "providerName" : "Custom kind roots from entity (extensions, empty)",
+      "totalNumberOfIndexedFiles" : 30,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalNumberOfNothingToWriteFiles" : 0,
+      "totalIndexingVisibleTime" : 1583420722,
+      "contentLoadingVisibleTime" : 173229640,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ {
+        "fileName" : "One-row.sql.groovy",
+        "processingTime" : 512982700,
+        "evaluationOfIndexValueChangerTime" : 467542800,
+        "contentLoadingTime" : 30574600
+      }, {
+        "fileName" : "CSV-Groovy.csv.groovy",
+        "processingTime" : 538533900,
+        "evaluationOfIndexValueChangerTime" : 491102100,
+        "contentLoadingTime" : 31426200
+      }, {
+        "fileName" : "Pretty-Groovy.txt.groovy",
+        "processingTime" : 584406000,
+        "evaluationOfIndexValueChangerTime" : 530899100,
+        "contentLoadingTime" : 46384800
+      }, {
+        "fileName" : "SHP.groovy",
+        "processingTime" : 825624100,
+        "evaluationOfIndexValueChangerTime" : 779481400,
+        "contentLoadingTime" : 29542100
+      }, {
+        "fileName" : "XML-Groovy.xml.groovy",
+        "processingTime" : 920709100,
+        "evaluationOfIndexValueChangerTime" : 866734100,
+        "contentLoadingTime" : 31159300
+      }, {
+        "fileName" : "JSON.groovy",
+        "processingTime" : 1003964600,
+        "evaluationOfIndexValueChangerTime" : 952698100,
+        "contentLoadingTime" : 34747400
+      }, {
+        "fileName" : "XLS.groovy",
+        "processingTime" : 756930600,
+        "evaluationOfIndexValueChangerTime" : 698955000,
+        "contentLoadingTime" : 39394600
+      }, {
+        "fileName" : "Parquet.groovy",
+        "processingTime" : 1308618600,
+        "evaluationOfIndexValueChangerTime" : 1257237100,
+        "contentLoadingTime" : 33939300
+      } ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "separateApplyingIndexesVisibleTime" : 43093072
+    }, {
+      "providerName" : "Refreshed files",
+      "totalNumberOfIndexedFiles" : 0,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalNumberOfNothingToWriteFiles" : 0,
+      "totalIndexingVisibleTime" : 0,
+      "contentLoadingVisibleTime" : 0,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "separateApplyingIndexesVisibleTime" : 0
+    } ],
+    "visibleTimeToAllThreadTimeRatio" : 0.0
+  }
+}

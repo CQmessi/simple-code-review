@@ -1,0 +1,36 @@
+#!/bin/bash
+# Windows 兼容的 post-commit 钩子
+
+echo "Commit 完成，异步启动代码审查..."
+
+# 异步执行代码审查
+{
+    # 设置环境变量
+    export COMMIT_PROJECT=$(basename -s .git $(git remote get-url origin))
+    export COMMIT_BRANCH="main"
+    export COMMIT_AUTHOR=$(git log -1 --pretty=format:'%an')
+    export COMMIT_MESSAGE=$(git log -1 --pretty=format:'%s')
+    export GIT_URL=""
+    export GIT_USER=""
+    export GIT_PASSWORD=""
+    export WEIXIN_APPID=""
+    export WEIXIN_SECRET=""
+    export WEIXIN_TOUSER=""
+    export WEIXIN_TEMPLATE_ID=""
+    export MODEL_KEY=""
+    export MODEL_URL=""
+    export MODEL=""
+    
+    echo "正在执行代码审查..."
+    cd "$(git rev-parse --show-toplevel)"
+    mvn compile exec:java -Dexec.mainClass="com.mx.openaicodesdk.CodeReviewer"
+    if [ $? -ne 0 ]; then
+        echo "代码审查执行失败，请检查错误信息"
+    else
+        echo "代码审查完成"
+    fi
+} > "code-review-$(git rev-parse HEAD).log" 2>&1 &
+
+echo "代码审查已在后台异步执行"
+echo "查看审查日志: type code-review-$(git rev-parse HEAD).log"
+echo "或者使用: Get-Content code-review-$(git rev-parse HEAD).log -Wait (PowerShell)"
